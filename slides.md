@@ -17,7 +17,7 @@ transition: slide-left
 
 <div class="pt-8">
   <img
-    src="https://avatars.githubusercontent.com/u/107259970?v=4"
+    src=""
     class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-blue-500"
     alt="Profile Picture"
   />
