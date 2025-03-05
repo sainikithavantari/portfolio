@@ -91,7 +91,7 @@
 
         #menu .right-content {
             z-index: 2;
-            text-align:center;
+            text-align: center;
             color: white;
         }
 
@@ -635,7 +635,7 @@
         <button class="nav-btn" onclick="navigateTo('education')">Education</button>
         <button class="nav-btn" onclick="navigateTo('skills')">Skills</button>
         <button class="nav-btn" onclick="navigateTo('projects')">Projects</button>
-        <button class="nav-btn" onclick="navigateTo('Personal Projects')">Personal Projects</button>
+        <button class="nav-btn" onclick="navigateTo('personal-projects')">Personal Projects</button>
         <button class="nav-btn" onclick="navigateTo('contact')">Contact</button>
         <button class="nav-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
     </div>
@@ -794,29 +794,27 @@
             <li>Applied agile methodologies for scalable and efficient app deployment </li>
         </ul>
     </div>
-    <!-- Personal Projects Section -->
-    <div id="Personal Projects" class="section">
-        <div class="right-content">
-            <h2>My Personal Projects</h2>
-            <div class="project-card" onclick="showProject(4)">
-                <h3>Virtual Roommate</h3>
-                <p>An AI-powered virtual assistant designed to help users manage daily tasks and schedules.</p>
-            </div>
-            <div class="project-card" onclick="showProject(5)">
-                <h3>Mood Journal</h3>
-                <p>A mood-tracking app that uses AI to provide insights and recommendations for mental well-being.</p>
-            </div>
-            <div class="project-card" onclick="showProject(6)">
-                <h3>AI Story Generator</h3>
-                <p>A creative tool that generates unique stories using natural language processing (NLP).</p>
-            </div>
-            <div class="project-card" onclick="showProject(7)">
-                <h3>AI Receipe Generator</h3>
-                <p>A creative tool that generates unique recipes using natural language processing (NLP).</p>
-            </div>
+    <div id="personal-projects" class="section">
+    <div class="right-content">
+        <h2>My Personal Projects</h2>
+        <div class="project-card" onclick="showProject(4)">
+            <h3>Virtual Roommate</h3>
+            <p>An AI-powered virtual assistant designed to help users manage daily tasks and schedules.</p>
+        </div>
+        <div class="project-card" onclick="showProject(5)">
+            <h3>Mood Journal</h3>
+            <p>A mood-tracking app that uses AI to provide insights and recommendations for mental well-being.</p>
+        </div>
+        <div class="project-card" onclick="showProject(6)">
+            <h3>AI Story Generator</h3>
+            <p>A creative tool that generates unique stories using natural language processing (NLP).</p>
+        </div>
+        <div class="project-card" onclick="showProject(7)">
+            <h3>AI Recipe Generator</h3>
+            <p>A creative tool that generates unique recipes using natural language processing (NLP).</p>
         </div>
     </div>
-
+</div>
     <div id="project-popup-4" class="project-popup">
         <button class="close-btn" onclick="closePopup(4)">×</button>
         <h3>Virtual Roommate</h3>
